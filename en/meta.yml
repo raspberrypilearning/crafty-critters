@@ -4,11 +4,11 @@ description: A short description of the project
 listed: false
 pdf: false
 steps:
-  - title: What you will make
-  - title: Step title
+  - title: Step 1
+  - title: Step 2
     completion:
       - engaged      
-  - title: Challenge
+  - title: Step 3
     challenge: true
     completion:
       - external
