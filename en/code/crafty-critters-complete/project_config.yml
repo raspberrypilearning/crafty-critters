@@ -1,4 +1,4 @@
 name: "Crafty critters complete"
 identifier: "crafty-critters-complete"
 type: 'python'
-build: false
+build: true

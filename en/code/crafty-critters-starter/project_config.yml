@@ -1,4 +1,4 @@
 name: "Crafty critters starter"
 identifier: "crafty-critters-starter"
 type: 'python'
-build: false
+build: true
