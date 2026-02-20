@@ -2,21 +2,40 @@ from p5 import *
 from random import randint
 
 def setup():
-    size(400, 400)
+    size(600, 400)
     image_mode(CENTER)
     global body, eye, leg
-    body = load_image('body1.png')
-    leg = load_image('leg1.png')
-    eye = load_image('leg1.png')
+
+    rand_body = str(randint(1,3))
+    rand_eye = str(randint(1,3))
+    rand_leg = str(randint(1,3))
+    body = load_image('body' + rand_body + '.png')
+    eye = load_image('eye' + rand_eye + '.png')
+    leg = load_image('leg' + rand_leg + '.png')
+    
 
 def draw():
     background(220, 30, 124);
-    image(leg, 150, 320);
-    image(leg, 250, 300);
-    image(leg, 350, 320);
-    image(leg, 450, 330);
-    image(body, width / 2, 200, 500);
-    image(eye, 350, 120, 200);
-    image(eye, 500, 100, 200);
+    leg_x = 150
+    gap = 80
+    leg_y = mouse_y  
+    if leg_y < 200:
+        leg_y = 200
+        
+    if leg_y > 310:
+        leg_y = 310
+    print(mouse_y)
+    #legs
+    for i in range(4):
+        image(leg, leg_x, leg_y);
+        leg_x = leg_x + gap
+    
+    #body
+    image(body, 275, 150);
 
+    #eyes
+    image(eye, 300, 120);
+    image(eye, 450, 100);
+
+        
 run() # Keep this to run your code
