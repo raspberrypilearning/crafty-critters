@@ -59,7 +59,7 @@ Click **run** to see the eye you chose. Move your eyes by changing the x and y n
 </div>
 
 <div class="c-project-output">
-![ADD](images/robotrumps-yellow.png)
+![visual output window with shell and fish eyes](images/step4.png)
 </div>
 
 

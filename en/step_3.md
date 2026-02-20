@@ -50,7 +50,7 @@ Click **run** to see the body you chose in the visual output.
 </div>
 
 <div class="c-project-output">
-![ADD](images/robotrumps-yellow.png)
+![visual output window with snail shell](images/step3.png)
 </div>
 
 <div class="c-project-callout c-project-callout--tip">

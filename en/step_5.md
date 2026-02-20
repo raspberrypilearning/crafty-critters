@@ -51,7 +51,7 @@ Click **run** to see the one of your legs. Chose a different leg file, or move i
 </div>
 
 <div class="c-project-output">
-![ADD](images/robotrumps-yellow.png)
+![visual output window with shell, fish eyes, and panda legs](images/step5.png)
 </div>
 
 

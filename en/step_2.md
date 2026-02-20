@@ -30,6 +30,8 @@ def setup():
     
 def draw():
     background(220, 30, 124);
+
+run() # Keep this to run your code
 --- /code ---
 --- task ---
 
@@ -39,7 +41,7 @@ Click **run** to see the background in the visual output window.
 </div>
 
 <div class="c-project-output">
-![ADD](images/robotrumps-yellow.png)
+![visual output window with pink background](images/step2.png)
 </div>
 
 

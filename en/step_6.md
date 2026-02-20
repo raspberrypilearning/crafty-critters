@@ -30,18 +30,9 @@ Experiment with the code to change the number of legs, and their positions.
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 7
+line_number_start: 16
 line_highlights: 17-21
 ---
-    # Add images
-    global body, eye, leg
-    body = load_image('body1.png')
-    eye = load_image('eye1.png')
-    leg = load_image('leg1.png')
-    
-def draw():
-    background(220, 30, 124);
-
     # Draw legs
     leg_x = 150 # starting position
     gap = 80 
@@ -51,12 +42,6 @@ def draw():
     
     # Draw body
     image(body, 275, 150);
-
-    # Draw eyes
-    image(eye, 300, 120);
-    image(eye, 450, 100);
-
-run() # Keep this to run your code
 --- /code ---
 --- task ---
 
@@ -66,7 +51,7 @@ Click **run** to see your critter!
 </div>
 
 <div class="c-project-output">
-![ADD](images/robotrumps-yellow.png)
+![visual output window with critter](images/step6.png)
 </div>
 
 
