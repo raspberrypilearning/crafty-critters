@@ -55,8 +55,8 @@ Click **run** to see the legs ony move to the highest and lowest positions.
 --- /task ---  
 </div>
 
-<div class="c-project-output">ß
-![visual output window with printed number in the text output and critter and moving legs](images/step7.gif)
+<div class="c-project-output">
+![visual output window with printed number in the text output and critter and moving legs](images/step8.gif)
 </div>
 
 

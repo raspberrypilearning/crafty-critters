@@ -20,7 +20,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 7
-line_highlights: 8, 10, 18-20
+line_highlights: 8, 11, 16-17
 ---
     # Add images
     global body, eye, leg
@@ -36,12 +36,6 @@ def draw():
     
     # Draw body
     image(body, 275, 150);
-
-    # Draw eyes
-    image(eye, 300, 120);
-    image(eye, 450, 100);
-
-run() # Keep this to run your code
 --- /code ---
 --- task ---
 
