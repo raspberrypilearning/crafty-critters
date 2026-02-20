@@ -23,11 +23,9 @@ Add the image file first in teh `setup()`. Then show the image in `draw()`
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 1
-line_highlights: 7-9, 15
+line_number_start: 3
+line_highlights: 7-9, 14-15
 ---
-from p5 import *
-
 def setup():
     size(600, 400)
     image_mode(CENTER)
@@ -41,10 +39,12 @@ def draw():
     
     # Draw body
     image(body, 275, 150);
+
+run() # Keep this to run your code
 --- /code ---
 --- task ---
 
-Click **run** to see the background in the visual output window.
+Click **run** to see the body you chose in the visual output.
 
 --- /task ---  
 </div>
