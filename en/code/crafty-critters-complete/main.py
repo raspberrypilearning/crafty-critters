@@ -20,6 +20,3 @@ def draw():
     image(eye, 500, 100, 200);
 
 run() # Keep this to run your code
-
-
-run() # Keep this to run your code
