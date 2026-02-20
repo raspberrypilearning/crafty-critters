@@ -16,18 +16,18 @@ def setup():
 
 def draw():
     background(220, 30, 124);
+    #legs
     leg_x = 150
     gap = 80
-    leg_y = mouse_y  
-    if leg_y < 200:
-        leg_y = 200
-        
-    if leg_y > 310:
-        leg_y = 310
-    print(mouse_y)
-    #legs
+    #leg_y = mouse_y  
+    #if leg_y < 200:
+    #    leg_y = 200   
+    #if leg_y > 310:
+    #    leg_y = 310
+    #print(mouse_y)
+   
     for i in range(4):
-        image(leg, leg_x, leg_y);
+        image(leg, leg_x, 300);
         leg_x = leg_x + gap
     
     #body
