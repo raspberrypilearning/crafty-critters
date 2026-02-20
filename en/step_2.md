@@ -20,7 +20,7 @@ language: python
 filename: main.py
 line_numbers: true
 line_number_start: 1
-line_highlights: 8
+line_highlights: 7-10
 ---
 from p5 import *
 
@@ -42,6 +42,14 @@ Click **run** to see the background in the visual output window.
 
 <div class="c-project-output">
 ![visual output window with pink background](images/step2.png)
+</div>
+
+<div class="c-project-callout c-project-callout--debug">
+
+### Debugging
+
+The programme needs `run()` to work. Make sure you have added this ro the bottom of the code.
+
 </div>
 
 
