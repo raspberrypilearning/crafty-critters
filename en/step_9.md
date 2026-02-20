@@ -1,5 +1,4 @@
 <h2 class="c-project-heading--task">More challenges</h2>
---- task ---
 
 --- task ---
 
