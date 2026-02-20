@@ -42,7 +42,8 @@ def setup():
 
 def draw():
     background(220, 30, 124);
-
+--- /code ---
+</div>
 --- /task ---
 
 
