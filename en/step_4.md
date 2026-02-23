@@ -5,23 +5,23 @@ Add eyes to your critter 👀
 
 --- /task ---
 
+--- task ---
+
+There are two eyes, so `image()` is written twice with a small difference in the x and y to change the position.
+
+--- /task ---
+
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-The screen is like a grid, and each image as an x and y position.for example, `image(eye, x, y)` 
+The screen is like a grid, and each image has an x and y position, for example `image(eye, x, y)`. 
 
 </div>
 
 --- task ---
 
 Add the code below. Use the image you want by changing the file name in `load_image()`.
-
---- /task ---
-
---- task ---
-
-There are two eyes, so `image()` is written twice with a small difference in the x and y to change the position.
 
 --- /task ---
 

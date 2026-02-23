@@ -13,7 +13,7 @@ Click the image gallery icon to see all the image files in this project. There a
 
 --- task ---
 
-Add the image file first in teh `setup()`. Then show the image in `draw()`
+Add the image file first in the `setup()`. Then show the image in `draw()`
 
 --- /task ---
 

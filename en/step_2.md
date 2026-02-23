@@ -9,9 +9,15 @@ Edit the values in `background()` to change the colour
 
 ### Tip
 
-The three numbers in background(0, 0, 0) are red, green and blue values. Make sure all your background colour values are between 0 and 255.
+The three numbers in background(r, g, b) are **r**ed, **g**reen and **b**lue values. Make sure all your background colour values are between 0 and 255.
 
 </div>
+
+--- task ---
+
+Play with the values in `background()` unitll you find the background colour you want.
+
+--- /task ---
 
 <div class="c-project-code">
 --- code ---
