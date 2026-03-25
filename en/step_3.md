@@ -9,9 +9,11 @@ The screen is like a grid, and each image has an x and y position, for example `
 
 </div>
 
+## Step 1
 Add the code below. Use the image you want by changing the file name in `load_image()`.
 
-There are two eyes, so `image()` is written twice with a small difference in the x and y to change the position.
+## Step 2
+There are two eyes, so `image()` is written twice with a small difference in the x and y to change the position. Move your eyes to a different position by changing the x and y numbers in the code.
 
 <div class="c-project-code">
 --- code ---
@@ -42,8 +44,7 @@ run() # Keep this to run your code
 </div>
 
 ### Now run your code
-Move your eyes to a different position by changing the x and y numbers in the code.
-
+Test that your eyes are in the right place, and edit the code if they need to change.
 
 <div class="c-project-output">
 ![visual output window with shell and fish eyes](images/step4.png)
