@@ -8,17 +8,17 @@ Edit the values in `background()` to change the colour
 
 ### Tip
 
-The three numbers in background(r, g, b) are **r**ed, **g**reen and **b**lue values. Make sure all your background colour values are between 0 and 255.
+The three numbers in background(r, g, b) are **r**ed, **g**reen and **b**lue values. Make sure all values are between 0 and 255.
 
 </div>
 
 --- task ---
 
-Play with the values in `background()` until you find the background colour you want.
+Play with the **RGB** values until you find the background colour you want.
 
 --- /task ---
 
-<div class="c-project-code">
+
 --- code ---
 ---
 language: python
@@ -38,7 +38,7 @@ def draw():
 
 run() # Keep this to run your code
 --- /code ---
-</div>
+
 
 ### Now run your code 
 You can see the background in the visual output window.
