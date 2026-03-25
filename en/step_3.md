@@ -5,7 +5,8 @@ Add eyes to your critter 👀
 
 ### Tip
 
-The screen is like a grid, and each image has an x and y position, for example `image(eye, x, y)`. 
+- The screen is like a grid, and each image has an x and y position, for example `image(eye, x, y)`. 
+- There are two eyes, so `image()` is written twice with a small difference in the x and y to change the position. 
 
 </div>
 
@@ -13,7 +14,7 @@ The screen is like a grid, and each image has an x and y position, for example `
 Add the code below. Use the image you want by changing the file name in `load_image()`.
 
 ## Step 2
-There are two eyes, so `image()` is written twice with a small difference in the x and y to change the position. Move your eyes to a different position by changing the x and y numbers in the code.
+Move your eyes to a different position by changing the x and y numbers in the code.
 
 <div class="c-project-code">
 --- code ---
