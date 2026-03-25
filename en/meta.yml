@@ -1,7 +1,7 @@
 title: Crafty critters
 hero_image: images/banner.png
 description: Make a cut-out style creature with python.
-listed: false
+listed: true
 pdf: false
 landing: true
 steps:
