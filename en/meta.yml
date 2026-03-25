@@ -3,6 +3,7 @@ hero_image: images/banner.png
 description: Make a cut-out style creature with python.
 listed: false
 pdf: false
+landing: true
 steps:
   - title: Step 1
   - title: Step 2
