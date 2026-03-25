@@ -1,19 +1,27 @@
-<h2 class="c-project-heading--task">Add the body</h2>
+<h2 class="c-project-heading--task">Make them look</h2>
 --- task ---
 
-Add an image for the body of the critter.
+Add eyes to your critter 👀
 
 --- /task ---
 
 --- task ---
 
-Click the image gallery icon to see all the image files in this project. There are different bodies you can use. 
+There are two eyes, so `image()` is written twice with a small difference in the x and y to change the position.
 
 --- /task ---
 
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+The screen is like a grid, and each image has an x and y position, for example `image(eye, x, y)`. 
+
+</div>
+
 --- task ---
 
-Add the image file first in the `setup()`. Then show the image in `draw()`
+Add the code below. Use the image you want by changing the file name in `load_image()`.
 
 --- /task ---
 
@@ -23,16 +31,13 @@ Add the image file first in the `setup()`. Then show the image in `draw()`
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 3
-line_highlights: 7-9, 14-15
+line_number_start: 7
+line_highlights: 8, 10, 18-20
 ---
-def setup():
-    size(600, 400)
-    image_mode(CENTER)
-    
     # Add images
-    global body
+    global body, eye
     body = load_image('body1.png')
+    eye = load_image('eye1.png')
     
 def draw():
     background(220, 30, 124);
@@ -40,25 +45,23 @@ def draw():
     # Draw body
     image(body, 275, 150);
 
+    # Draw eyes
+    image(eye, 300, 120);
+    image(eye, 450, 100);
+
 run() # Keep this to run your code
 --- /code ---
 --- task ---
 
-Click **run** to see the body you chose in the visual output.
+Click **run** to see the eye you chose. Move your eyes by changing the x and y numbers in the code.
 
 --- /task ---  
 </div>
 
 <div class="c-project-output">
-![visual output window with snail shell](images/step3.png)
+![visual output window with shell and fish eyes](images/step4.png)
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
-
-### Tip
-Change the file name in `load_image()` to the body you want to use.
- 
-</div>
 
 
 

@@ -1,27 +1,20 @@
-<h2 class="c-project-heading--task">Challenge: dancing critters</h2>
+<h2 class="c-project-heading--task">More challenges</h2>
+
 --- task ---
 
-Use `if` to limit how the legs move.
+Try making the whole critter move by adding `leg_y` to y position of the eye and body. You will need to adjust the numbers until it looks right.
 
 --- /task ---
 
 --- task ---
 
-To make the legs look more attached to the body, decide how high and low you want them to be.
+You can change the size of images by adding a `width` and `height`. Experiment with `image(x, y, width, height)` to change the look of your critter.
 
 --- /task ---
 
 --- task ---
 
-`print()` the `leg_y` value to see it in the **text output**.
-
---- /task ---
-
---- task ---
-
-Use the numbers from the **text output** as the highest or lowest values in your code. 
-
---- /task ---
+Add some randomness in the `setup()` of your critter. Here is some starter code with `randint()` for you to experiment with:
 
 <div class="c-project-code">
 --- code ---
@@ -29,35 +22,29 @@ Use the numbers from the **text output** as the highest or lowest values in your
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 16
-line_highlights: 20-28
+line_number_start: 1
+line_highlights: 
 ---
-    # Draw legs
-    leg_x = 150 # starting position
-    gap = 80 
-    leg_y = mouse_y
-    print(mouse_y)
-    
-    # Highest
-    if leg_y < 200:
-        leg_y = 200
+from p5 import *
+from random import randint
 
-    # Lowest    
-    if leg_y > 310:
-        leg_y = 310
+def setup():
+    size(600, 400)
+    image_mode(CENTER)
+    global body, eye, leg
 
-    for i in range(4):
+    rand_body = str(randint(1,3))
+    rand_eye = str(randint(1,3))
+    rand_leg = str(randint(1,3))
+    body = load_image('body' + rand_body + '.png')
+    eye = load_image('eye' + rand_eye + '.png')
+    leg = load_image('leg' + rand_leg + '.png')
+
+def draw():
+    background(220, 30, 124);
 --- /code ---
---- task ---
-
-Click **run** to see the legs ony move to the highest and lowest positions.
-
---- /task ---  
 </div>
-
-<div class="c-project-output">
-![visual output window with printed number in the text output and critter and moving legs](images/step8.gif)
-</div>
+--- /task ---
 
 
 

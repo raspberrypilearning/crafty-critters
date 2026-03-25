@@ -1,17 +1,28 @@
-<h2 class="c-project-heading--task">Give them a leg</h2>
+<h2 class="c-project-heading--task">Loop the legs</h2>
 --- task ---
 
-Put the first leg in your critter with the code below. 
+Add four legs by using a loop.
 
 --- /task ---
 
-<div class="c-project-callout c-project-callout--tip">
+--- task ---
 
-### Tip
+**Delete** the `image()` code for the leg, and replace it with a loop. The loop runs four times, one for each leg. 
 
-The images a shown in the order of the code, so the leg code is first, as it is on the bottom layer.
+--- /task ---
 
-</div>
+--- task ---
+
+Instead of writing a number `leg_x` is used as the starting position, and changed each time the loop runs. The `gap` is the number it changes by.  
+
+--- /task ---
+
+--- task ---
+
+Experiment with the code to change the number of legs, and their positions.
+
+--- /task ---
+
 
 <div class="c-project-code">
 --- code ---
@@ -19,36 +30,29 @@ The images a shown in the order of the code, so the leg code is first, as it is 
 language: python
 filename: main.py
 line_numbers: true
-line_number_start: 7
-line_highlights: 8, 11, 16-17
+line_number_start: 16
+line_highlights: 17-21
 ---
-    # Add images
-    global body, eye, leg
-    body = load_image('body1.png')
-    eye = load_image('eye1.png')
-    leg = load_image('leg1.png')
-    
-def draw():
-    background(220, 30, 124);
-
     # Draw legs
-    image(leg, 150, 300);
+    leg_x = 150 # starting position
+    gap = 80 
+    for i in range(4):
+        image(leg, leg_x, 300);
+        leg_x = leg_x + gap
     
     # Draw body
     image(body, 275, 150);
 --- /code ---
 --- task ---
 
-Click **run** to see the one of your legs. Chose a different leg file, or move it by changing the code.
+Click **run** to see your critter! 
 
 --- /task ---  
 </div>
 
 <div class="c-project-output">
-![visual output window with shell, fish eyes, and panda legs](images/step5.png)
+![visual output window with critter](images/step6.png)
 </div>
-
-
 
 
 
