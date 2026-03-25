@@ -1,15 +1,5 @@
-<h2 class="c-project-heading--task">Make them look</h2>
---- task ---
-
+## Make them look
 Add eyes to your critter 👀
-
---- /task ---
-
---- task ---
-
-There are two eyes, so `image()` is written twice with a small difference in the x and y to change the position.
-
---- /task ---
 
 <div class="c-project-callout c-project-callout--tip">
 
@@ -19,11 +9,9 @@ The screen is like a grid, and each image has an x and y position, for example `
 
 </div>
 
---- task ---
-
 Add the code below. Use the image you want by changing the file name in `load_image()`.
 
---- /task ---
+There are two eyes, so `image()` is written twice with a small difference in the x and y to change the position.
 
 <div class="c-project-code">
 --- code ---
@@ -51,12 +39,11 @@ def draw():
 
 run() # Keep this to run your code
 --- /code ---
---- task ---
-
-Click **run** to see the eye you chose. Move your eyes by changing the x and y numbers in the code.
-
---- /task ---  
 </div>
+
+### Now run your code
+Move your eyes to a different position by changing the x and y numbers in the code.
+
 
 <div class="c-project-output">
 ![visual output window with shell and fish eyes](images/step4.png)

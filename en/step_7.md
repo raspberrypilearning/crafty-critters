@@ -1,27 +1,14 @@
-<h2 class="c-project-heading--task">Challenge: dancing critters</h2>
---- task ---
-
-Use `if` to limit how the legs move.
-
---- /task ---
-
---- task ---
-
+## Challenge: better dancing critters
 To make the legs look more attached to the body, decide how high and low you want them to be.
 
---- /task ---
-
---- task ---
-
+## Step 1
 `print()` the `leg_y` value to see it in the **text output**.
 
---- /task ---
-
---- task ---
-
+### Now run your code 
 Use the numbers from the **text output** as the highest or lowest values in your code. 
 
---- /task ---
+## Step 2
+Use `if` to limit how the legs move.
 
 <div class="c-project-code">
 --- code ---
@@ -48,12 +35,10 @@ line_highlights: 20-28
 
     for i in range(4):
 --- /code ---
---- task ---
-
-Click **run** to see the legs ony move to the highest and lowest positions.
-
---- /task ---  
 </div>
+
+### Now run your code 
+See the legs ony move to the highest and lowest positions.
 
 <div class="c-project-output">
 ![visual output window with printed number in the text output and critter and moving legs](images/step8.gif)

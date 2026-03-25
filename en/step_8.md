@@ -1,29 +1,22 @@
-<h2 class="c-project-heading--task">More challenges</h2>
+## More challenges
 
---- task ---
-
+## Move the whole critter
 Try making the whole critter move by adding `leg_y` to y position of the eye and body. You will need to adjust the numbers until it looks right.
 
---- /task ---
 
---- task ---
-
+## Change the look
 You can change the size of images by adding a `width` and `height`. Experiment with `image(x, y, width, height)` to change the look of your critter.
 
---- /task ---
 
---- task ---
-
-Add some randomness in the `setup()` of your critter. Here is some starter code with `randint()` for you to experiment with:
+## Make it random
+Add some randomness in the `setup()` of your critter. Here is some starter code with `randint()` for you to experiment with.
 
 <div class="c-project-code">
 --- code ---
 ---
 language: python
 filename: main.py
-line_numbers: true
-line_number_start: 1
-line_highlights: 
+line_numbers: false
 ---
 from p5 import *
 from random import randint
@@ -44,7 +37,6 @@ def draw():
     background(220, 30, 124);
 --- /code ---
 </div>
---- /task ---
 
 
 

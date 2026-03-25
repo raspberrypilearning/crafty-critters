@@ -1,21 +1,12 @@
-<h2 class="c-project-heading--task">Add the body</h2>
---- task ---
-
+## Add the body
 Add an image for the body of the critter.
 
---- /task ---
-
---- task ---
-
+## Step 1
 Click the image gallery icon to see all the image files in this project. There are different bodies you can use. 
 
---- /task ---
+## Step 2
+Add the code below and change the file name in `load_image()` to the body you want to use.
 
---- task ---
-
-Add the image file first in the `setup()`. Then show the image in `draw()`
-
---- /task ---
 
 <div class="c-project-code">
 --- code ---
@@ -42,24 +33,15 @@ def draw():
 
 run() # Keep this to run your code
 --- /code ---
---- task ---
-
-Click **run** to see the body you chose in the visual output.
-
---- /task ---  
 </div>
+
+### Now run your code
+See the body you chose in the visual output.
+
 
 <div class="c-project-output">
 ![visual output window with snail shell](images/step3.png)
 </div>
-
-<div class="c-project-callout c-project-callout--tip">
-
-### Tip
-Change the file name in `load_image()` to the body you want to use.
- 
-</div>
-
 
 
 

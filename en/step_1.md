@@ -1,22 +1,13 @@
 ## Choose your background
-
-
 Edit the values in `background()` to change the colour
-
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-The three numbers in background(r, g, b) are **r**ed, **g**reen and **b**lue values. Make sure all values are between 0 and 255.
+The three numbers in background(r, g, b) are **r**ed, **g**reen and **b**lue values. All values need to be between 0 and 255.
 
 </div>
-
---- task ---
-
-Play with the **RGB** values until you find the background colour you want.
-
---- /task ---
 
 <div class="c-project-code">
 --- code ---
@@ -41,7 +32,7 @@ run() # Keep this to run your code
 </div>
 
 ### Now run your code 
-You can see the background in the visual output window.
+You can see the background in the visual output window. Play with the **RGB** values until you find the background colour you want.
 
 
 <div class="c-project-output">

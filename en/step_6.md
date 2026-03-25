@@ -1,16 +1,7 @@
-<h2 class="c-project-heading--task">Challenge: dancing critters</h2>
---- task ---
-
+## Challenge: dancing critters
 Use the mouse or trackpad to make the critter dance.
 
---- /task ---
-
---- task ---
-
 Add `leg_y` and make it the same as the y value on the mouse or trackpad. 
-
---- /task ---
-
 
 <div class="c-project-code">
 --- code ---
@@ -30,12 +21,10 @@ line_highlights: 19, 22
         image(leg, leg_x, leg_y);
         leg_x = leg_x + gap
 --- /code ---
---- task ---
-
-Click **run** to see the legs move with the curser.
-
---- /task ---  
 </div>
+
+### Now run your code 
+The legs should move with the curser.
 
 <div class="c-project-output">
 ![visual output window with critter and moving legs](images/step7.gif)

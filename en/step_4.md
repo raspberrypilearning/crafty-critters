@@ -1,15 +1,11 @@
-<h2 class="c-project-heading--task">Give them a leg</h2>
---- task ---
-
+## Give them a leg
 Put the first leg in your critter with the code below. 
-
---- /task ---
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-The images a shown in the order of the code, so the leg code is first, as it is on the bottom layer.
+The images are shown in the order of the code, so the leg code is first, as it is on the bottom layer.
 
 </div>
 
@@ -37,12 +33,12 @@ def draw():
     # Draw body
     image(body, 275, 150);
 --- /code ---
---- task ---
-
-Click **run** to see the one of your legs. Chose a different leg file, or move it by changing the code.
-
---- /task ---  
 </div>
+
+
+### Now run your code 
+See the one of your legs. Chose a different leg file, or move it by changing the code.
+
 
 <div class="c-project-output">
 ![visual output window with shell, fish eyes, and panda legs](images/step5.png)
