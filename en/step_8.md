@@ -31,7 +31,9 @@ line_highlights: 22-28
 See the legs only move between the highest and lowest positions.
 
 <div class="c-project-output">
+
 ![The Visual output window with the critter with legs moving up and down from the bottom of the snail shell with the cursor.](images/step8.gif)
+
 </div>
 
 

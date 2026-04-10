@@ -27,7 +27,9 @@ line_highlights: 19, 22
 The legs should move with the cursor.
 
 <div class="c-project-output">
+
 ![The Visual output window with the critter with legs that are moving up and down between the top and bottom of the window with a cursor.](images/step6.gif)
+
 </div>
 
 

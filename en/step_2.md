@@ -40,7 +40,9 @@ See the body you chose in the **Visual output**.
 
 
 <div class="c-project-output">
+
 ![The Visual output window with a snail shell.](images/step2.png)
+
 </div>
 
 

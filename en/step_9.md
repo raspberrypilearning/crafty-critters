@@ -12,6 +12,7 @@ You can change the size of images by adding a `width` and `height`. Experiment w
 Add some randomness in the `setup()` of your critter. Here is some starter code with `randint()` that you can experiment with.
 
 <div class="c-project-code">
+
 --- code ---
 ---
 language: python
@@ -36,6 +37,7 @@ def setup():
 def draw():
     background(220, 30, 124)
 --- /code ---
+
 </div>
 
 

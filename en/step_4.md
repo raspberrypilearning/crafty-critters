@@ -41,7 +41,9 @@ See a leg appear. You can move the leg by changing the code, or choose a differe
 
 
 <div class="c-project-output">
+
 ![The Visual output window with a snail shell with fish eyes and a panda leg.](images/step4.png)
+
 </div>
 
 

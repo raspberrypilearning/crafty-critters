@@ -48,7 +48,9 @@ run() # Keep this to run your code
 Test that the eyes are in the right place, and edit the code if you need to move them.
 
 <div class="c-project-output">
+
 ![The Visual output window with a snail shell with two fish eyes towards the front.](images/step3.png)
+
 </div>
 
 

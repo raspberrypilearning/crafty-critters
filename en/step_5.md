@@ -37,7 +37,9 @@ See your finished critter!
 --- /task ---  
 
 <div class="c-project-output">
+
 ![The Visual output window with a critter with a snail shell, fish eyes, and four panda legs.](images/step5.png)
+
 </div>
 
 <div class="c-project-callout c-project-callout--tip">

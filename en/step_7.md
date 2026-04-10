@@ -26,7 +26,9 @@ line_highlights: 20
 You can use the numbers from the **Text output** as the highest or lowest values in your code. 
 
 <div class="c-project-output">
+
 ![The Text output window with numbers being printed.](images/step7.gif)
+
 </div>
 
 
