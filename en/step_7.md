@@ -1,4 +1,4 @@
-### Challenge: Improve the dancing critter
+## Challenge: Improve the dancing critter
 To make the legs look more attached to the body, decide how high and low you want them to be.
 
 ## Step 1
