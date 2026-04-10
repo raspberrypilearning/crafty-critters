@@ -1,11 +1,11 @@
 ## Give them a leg
-Put the first leg in your critter with the code below. 
+Put the first leg on your critter with the code below. 
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-The images are shown in the order of the code, so the leg code is first, as it is on the bottom layer.
+The images are shown in the order of the code, so the leg code is first, as the leg image should be on the bottom layer.
 
 </div>
 
@@ -37,11 +37,11 @@ def draw():
 
 
 ### Now run your code 
-See the one of your legs. Chose a different leg file, or move it by changing the code.
+See a leg appear. You can move the leg by changing the code, or choose a different leg file.
 
 
 <div class="c-project-output">
-![visual output window with shell, fish eyes, and panda legs](images/step5.png)
+![The Visual output window with a snail shell with fish eyes and a panda leg.](images/step5.png)
 </div>
 
 

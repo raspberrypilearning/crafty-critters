@@ -1,11 +1,13 @@
 ## Choose your background
-Edit the values in `background()` to change the colour
+Create a background. 
+
+Edit the values in `background()` to change the colour.
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-The three numbers in background(r, g, b) are **r**ed, **g**reen and **b**lue values. All values need to be between 0 and 255.
+The three numbers in `background(r, g, b)` are **r**ed, **g**reen, and **b**lue (**RGB**) values. All values need to be between 0 and 255.
 
 </div>
 
@@ -32,18 +34,18 @@ run() # Keep this to run your code
 </div>
 
 ### Now run your code 
-You can see the background in the visual output window. Play with the **RGB** values until you find the background colour you want.
+You can see the background in the **Visual output** window. Experiment with the **RGB** values until you find the background colour you want.
 
 
 <div class="c-project-output">
-![visual output window with pink background](images/step2.png)
+![The Visual output window with a pink background.](images/step2.png)
 </div>
 
 <div class="c-project-callout c-project-callout--debug">
 
 ### Debugging
 
-The programme needs `run()` to work. Make sure you have added this to the bottom of the code.
+The program needs `run()` to work. Make sure you have added this to the bottom of your code.
 
 </div>
 

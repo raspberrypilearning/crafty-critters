@@ -1,11 +1,11 @@
-## Challenge: better dancing critters
+## Challenge: Improve the dancing critter
 To make the legs look more attached to the body, decide how high and low you want them to be.
 
 ## Step 1
-`print()` the `leg_y` value to see it in the **text output**.
+`print()` the `leg_y` value to see it in the **Text output**.
 
 ### Now run your code 
-Use the numbers from the **text output** as the highest or lowest values in your code. 
+You can use the numbers from the **Text output** as the highest or lowest values in your code. 
 
 ## Step 2
 Use `if` to limit how the legs move.
@@ -38,10 +38,10 @@ line_highlights: 20-28
 </div>
 
 ### Now run your code 
-See the legs ony move to the highest and lowest positions.
+See the legs only move between the highest and lowest positions.
 
 <div class="c-project-output">
-![visual output window with printed number in the text output and critter and moving legs](images/step8.gif)
+![The Visual output window with the critter with legs moving up and down from the bottom of the snail shell with the cursor, and the Text output window with numbers being printed.](images/step8.gif)
 </div>
 
 

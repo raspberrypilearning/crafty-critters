@@ -1,7 +1,7 @@
 ## More challenges
 
 ## Move the whole critter
-Try making the whole critter move by adding `leg_y` to y position of the eye and body. You will need to adjust the numbers until it looks right.
+To make the whole critter move, change the y positions of the eyes and body to `leg_y`. You will need to adjust the numbers until it looks right.
 
 
 ## Change the look
@@ -9,7 +9,7 @@ You can change the size of images by adding a `width` and `height`. Experiment w
 
 
 ## Make it random
-Add some randomness in the `setup()` of your critter. Here is some starter code with `randint()` for you to experiment with.
+Add some randomness in the `setup()` of your critter. Here is some starter code with `randint()` that you can experiment with.
 
 <div class="c-project-code">
 --- code ---

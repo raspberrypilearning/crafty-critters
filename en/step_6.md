@@ -1,7 +1,7 @@
-## Challenge: dancing critters
+## Challenge: Dancing critter
 Use the mouse or trackpad to make the critter dance.
 
-Add `leg_y` and make it the same as the y value on the mouse or trackpad. 
+Add `leg_y` and make it the same as the y value of the cursor. 
 
 <div class="c-project-code">
 --- code ---
@@ -24,10 +24,10 @@ line_highlights: 19, 22
 </div>
 
 ### Now run your code 
-The legs should move with the curser.
+The legs should move with the cursor.
 
 <div class="c-project-output">
-![visual output window with critter and moving legs](images/step7.gif)
+![The Visual output window with the critter with legs that are moving up and down between the top and bottom of the window with a cursor.](images/step7.gif)
 </div>
 
 

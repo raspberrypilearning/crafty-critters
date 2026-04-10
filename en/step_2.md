@@ -1,8 +1,8 @@
-## Add the body
+## Add a body
 Add an image for the body of the critter.
 
 ## Step 1
-Click the image gallery icon to see all the image files in this project. There are different bodies you can use. 
+Click on the **Image gallery** icon to see all the image files in this project. Choose the body you want to use.
 
 ## Step 2
 Add the code below and change the file name in `load_image()` to the body you want to use.
@@ -36,11 +36,11 @@ run() # Keep this to run your code
 </div>
 
 ### Now run your code
-See the body you chose in the visual output.
+See the body you chose in the **Visual output**.
 
 
 <div class="c-project-output">
-![visual output window with snail shell](images/step3.png)
+![The Visual output window with a snail shell.](images/step3.png)
 </div>
 
 

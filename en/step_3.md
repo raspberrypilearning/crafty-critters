@@ -5,16 +5,16 @@ Add eyes to your critter 👀
 
 ### Tip
 
-- The screen is like a grid, and each image has an x and y position, for example `image(eye, x, y)`. 
-- There are two eyes, so `image()` is written twice with a small difference in the x and y to change the position. 
+- The screen is like a grid, and each image has an x and y position, for example, `image(eye, x, y)` 
+- The critter has two eyes, so you need to write `image()` twice with a small difference in the x and y values to change the positions
 
 </div>
 
 ## Step 1
-Add the code below. Use the image you want by changing the file name in `load_image()`.
+Add the code below. To use the image you want, change the file name in `load_image()`.
 
 ## Step 2
-Move your eyes to a different position by changing the x and y numbers in the code.
+To move the eyes to different positions, change the x and y numbers in the code.
 
 <div class="c-project-code">
 --- code ---
@@ -45,10 +45,10 @@ run() # Keep this to run your code
 </div>
 
 ### Now run your code
-Test that your eyes are in the right place, and edit the code if they need to change.
+Test that the eyes are in the right place, and edit the code if you need to move them.
 
 <div class="c-project-output">
-![visual output window with shell and fish eyes](images/step4.png)
+![The Visual output window with a snail shell with two fish eyes towards the front.](images/step4.png)
 </div>
 
 

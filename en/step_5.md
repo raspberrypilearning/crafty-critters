@@ -1,13 +1,13 @@
-<h2 class="c-project-heading--task">Loop the legs</h2>
-Add four legs by using a loop.
+## Loop the legs
+To give the critter four legs, use a loop.
 
 ## Step 1
-**Delete** the `image()` code for the leg, and replace it with the loop below. The loop runs four times, one for each leg. 
+**Delete** the `image()` code for the leg, and replace it with the loop below. The loop runs four times, once for each leg.
 
-# Step 2
+## Step 2
 Experiment with the code: 
-- change the number of legs by editing `range(4)`. 
-- move their positions by editing the `starting position`, `gap` or the y value.
+- To change the number of legs, edit `range(4)`
+- To change the positions of the legs, edit the starting position, `gap`, or the y value
 
 <div class="c-project-code">
 --- code ---
@@ -37,14 +37,14 @@ See your finished critter!
 --- /task ---  
 
 <div class="c-project-output">
-![visual output window with critter](images/step6.png)
+![The Visual output window with a critter with a snail shell, fish eyes, and four panda legs.](images/step6.png)
 </div>
 
 <div class="c-project-callout c-project-callout--tip">
 
 ### Tip
 
-Instead of writing a number `leg_x` is used as the starting position, and changed each time the loop runs. The `gap` is the number it changes by.  
+Instead of a number, `leg_x` is used as the starting position for the legs. It is changed each time the loop runs. `gap` is the number it changes by.
 
 </div>
 
