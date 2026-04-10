@@ -1,41 +1,63 @@
-## More challenges
+## Challenge: Improve the dancing critter
+To make the legs look more attached to the body, decide how high and low you want them to be.
 
-## Move the whole critter
-To make the whole critter move, change the y positions of the eyes and body to `leg_y`. You will need to adjust the numbers until it looks right.
-
-
-## Change the look
-You can change the size of images by adding a `width` and `height`. Experiment with `image(x, y, width, height)` to change the look of your critter.
-
-
-## Make it random
-Add some randomness in the `setup()` of your critter. Here is some starter code with `randint()` that you can experiment with.
+## Step 1
+`print()` the `mouse_y` value to see it in the **Text output**.
 
 <div class="c-project-code">
 --- code ---
 ---
 language: python
 filename: main.py
-line_numbers: false
+line_numbers: true
+line_number_start: 16
+line_highlights: 20
 ---
-from p5 import *
-from random import randint
-
-def setup():
-    size(600, 400)
-    image_mode(CENTER)
-    global body, eye, leg
-
-    rand_body = str(randint(1,3))
-    rand_eye = str(randint(1,3))
-    rand_leg = str(randint(1,3))
-    body = load_image('body' + rand_body + '.png')
-    eye = load_image('eye' + rand_eye + '.png')
-    leg = load_image('leg' + rand_leg + '.png')
-
-def draw():
-    background(220, 30, 124);
+    # Draw legs
+    leg_x = 150 # starting position
+    gap = 80 
+    leg_y = mouse_y
+    print(mouse_y)
+    
+    for i in range(4):
 --- /code ---
+</div>
+
+### Now run your code 
+You can use the numbers from the **Text output** as the highest or lowest values in your code. 
+
+## Step 2
+Use `if` to limit how the legs move.
+
+<div class="c-project-code">
+--- code ---
+---
+language: python
+filename: main.py
+line_numbers: true
+line_number_start: 19
+line_highlights: 22-28
+---
+    leg_y = mouse_y
+    print(mouse_y)
+    
+    # Highest
+    if leg_y < 200:
+        leg_y = 200
+
+    # Lowest    
+    if leg_y > 310:
+        leg_y = 310
+
+    for i in range(4):
+--- /code ---
+</div>
+
+### Now run your code 
+See the legs only move between the highest and lowest positions.
+
+<div class="c-project-output">
+![The Visual output window with the critter with legs moving up and down from the bottom of the snail shell with the cursor.](images/step8.gif)
 </div>
 
 

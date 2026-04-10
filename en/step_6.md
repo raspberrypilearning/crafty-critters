@@ -18,7 +18,7 @@ line_highlights: 19, 22
     leg_y = mouse_y
     
     for i in range(4):
-        image(leg, leg_x, leg_y);
+        image(leg, leg_x, leg_y)
         leg_x = leg_x + gap
 --- /code ---
 </div>
@@ -27,7 +27,7 @@ line_highlights: 19, 22
 The legs should move with the cursor.
 
 <div class="c-project-output">
-![The Visual output window with the critter with legs that are moving up and down between the top and bottom of the window with a cursor.](images/step7.gif)
+![The Visual output window with the critter with legs that are moving up and down between the top and bottom of the window with a cursor.](images/step6.gif)
 </div>
 
 

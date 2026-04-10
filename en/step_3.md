@@ -31,14 +31,14 @@ line_highlights: 8, 10, 18-20
     eye = load_image('eye1.png')
     
 def draw():
-    background(220, 30, 124);
+    background(220, 30, 124)
     
     # Draw body
-    image(body, 275, 150);
+    image(body, 275, 150)
 
     # Draw eyes
-    image(eye, 300, 120);
-    image(eye, 450, 100);
+    image(eye, 300, 120)
+    image(eye, 450, 100)
 
 run() # Keep this to run your code
 --- /code ---
@@ -48,7 +48,7 @@ run() # Keep this to run your code
 Test that the eyes are in the right place, and edit the code if you need to move them.
 
 <div class="c-project-output">
-![The Visual output window with a snail shell with two fish eyes towards the front.](images/step4.png)
+![The Visual output window with a snail shell with two fish eyes towards the front.](images/step3.png)
 </div>
 
 

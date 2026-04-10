@@ -25,13 +25,13 @@ line_highlights: 8, 11, 16-17
     leg = load_image('leg1.png')
     
 def draw():
-    background(220, 30, 124);
+    background(220, 30, 124)
 
     # Draw legs
-    image(leg, 150, 300);
+    image(leg, 150, 300)
     
     # Draw body
-    image(body, 275, 150);
+    image(body, 275, 150)
 --- /code ---
 </div>
 
@@ -41,7 +41,7 @@ See a leg appear. You can move the leg by changing the code, or choose a differe
 
 
 <div class="c-project-output">
-![The Visual output window with a snail shell with fish eyes and a panda leg.](images/step5.png)
+![The Visual output window with a snail shell with fish eyes and a panda leg.](images/step4.png)
 </div>
 
 

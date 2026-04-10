@@ -22,11 +22,11 @@ line_highlights: 17-21
     leg_x = 150 # starting position
     gap = 80 
     for i in range(4):
-        image(leg, leg_x, 300);
+        image(leg, leg_x, 300)
         leg_x = leg_x + gap
     
     # Draw body
-    image(body, 275, 150);
+    image(body, 275, 150)
 --- /code ---
 </div>
 
@@ -37,7 +37,7 @@ See your finished critter!
 --- /task ---  
 
 <div class="c-project-output">
-![The Visual output window with a critter with a snail shell, fish eyes, and four panda legs.](images/step6.png)
+![The Visual output window with a critter with a snail shell, fish eyes, and four panda legs.](images/step5.png)
 </div>
 
 <div class="c-project-callout c-project-callout--tip">

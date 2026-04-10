@@ -15,7 +15,7 @@ def setup():
     
 
 def draw():
-    background(220, 30, 124);
+    background(220, 30, 124)
     #legs
     leg_x = 150
     gap = 80
@@ -27,15 +27,15 @@ def draw():
     #print(mouse_y)
    
     for i in range(4):
-        image(leg, leg_x, 300);
+        image(leg, leg_x, 300)
         leg_x = leg_x + gap
     
     #body
-    image(body, 275, 150);
+    image(body, 275, 150)
 
     #eyes
-    image(eye, 300, 120);
-    image(eye, 450, 100);
+    image(eye, 300, 120)
+    image(eye, 450, 100)
 
         
 run() # Keep this to run your code

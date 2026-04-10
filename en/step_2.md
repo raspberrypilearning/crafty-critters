@@ -26,10 +26,10 @@ def setup():
     body = load_image('body1.png')
     
 def draw():
-    background(220, 30, 124);
+    background(220, 30, 124)
     
     # Draw body
-    image(body, 275, 150);
+    image(body, 275, 150)
 
 run() # Keep this to run your code
 --- /code ---
@@ -40,7 +40,7 @@ See the body you chose in the **Visual output**.
 
 
 <div class="c-project-output">
-![The Visual output window with a snail shell.](images/step3.png)
+![The Visual output window with a snail shell.](images/step2.png)
 </div>
 
 

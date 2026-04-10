@@ -27,7 +27,7 @@ def setup():
     image_mode(CENTER)
     
 def draw():
-    background(220, 30, 124);
+    background(220, 30, 124)
 
 run() # Keep this to run your code
 --- /code ---
@@ -38,7 +38,7 @@ You can see the background in the **Visual output** window. Experiment with the 
 
 
 <div class="c-project-output">
-![The Visual output window with a pink background.](images/step2.png)
+![The Visual output window with a pink background.](images/step1.png)
 </div>
 
 <div class="c-project-callout c-project-callout--debug">
