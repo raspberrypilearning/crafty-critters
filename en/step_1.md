@@ -36,12 +36,8 @@ run() # Keep this to run your code
 ### Now run your code 
 You can see the background in the **Visual output** window. Experiment with the **RGB** values until you find the background colour you want.
 
-
-<div class="c-project-output">
-
 ![The Visual output window with a pink background.](images/step1.png)
 
-</div>
 
 <div class="c-project-callout c-project-callout--debug">
 
