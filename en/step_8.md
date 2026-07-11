@@ -1,17 +1,10 @@
-## Challenge: Improve the dancing critter
+## Challenge: Limit the leg movement
+
 To make the legs look more attached to the body, decide how high and low you want them to be.
 
 Use `if` to limit how the legs move.
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 19
-line_highlights: 22-28
----
+```python filename="main.py" line_numbers="true" line_number_start="19" line_highlights="22-28"
     leg_y = mouse_y
     print(mouse_y)
     
@@ -24,20 +17,12 @@ line_highlights: 22-28
         leg_y = 310
 
     for i in range(4):
---- /code ---
-</div>
+```
 
-### Now run your code 
+## Now run your code
+
 See the legs only move between the highest and lowest positions.
 
-<div class="c-project-output">
-
 ![The Visual output window with the critter with legs moving up and down from the bottom of the snail shell with the cursor.](images/step8.gif)
-
-</div>
-
-
-
-
 
 

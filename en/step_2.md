@@ -8,15 +8,7 @@ Click on the **Image gallery** icon to see all the image files in this project. 
 Add the code below and change the file name in `load_image()` to the body you want to use.
 
 
-<div class="c-project-code">
---- code ---
----
-language: python
-filename: main.py
-line_numbers: true
-line_number_start: 3
-line_highlights: 7-9, 14-15
----
+```python filename="main.py" line_numbers="true" line_number_start="3" line_highlights="7-9,14-15"
 def setup():
     size(600, 400)
     image_mode(CENTER)
@@ -32,21 +24,12 @@ def draw():
     image(body, 275, 150)
 
 run() # Keep this to run your code
---- /code ---
-</div>
+```
 
-### Now run your code
+## Now run your code
+
 See the body you chose in the **Visual output**.
 
-
-<div class="c-project-output">
-
 ![The Visual output window with a snail shell.](images/step2.png)
-
-</div>
-
-
-
-
 
 
